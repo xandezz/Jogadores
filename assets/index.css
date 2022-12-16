@@ -1,0 +1,271 @@
+/*
+EM COMUM
+*/
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #050711;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-image: url(img/Backgroud.jpeg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    flex-direction: column;
+    
+}
+
+.titulo {
+    color: #81D8F7;
+    text-align: center;
+}
+
+.label {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 15px 0px;
+}
+
+.input {
+    border-radius: 5px;
+    background-color: #202024;
+    border: 1px solid #000000;
+    color: #ffffff;
+    height: 30px;
+    text-align: center;
+}
+
+.botao{
+    background-color: #81D8F7;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 0px;
+    width: 310px;
+    margin: 40px 0px;
+    align-self: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+}
+ 
+.botao:hover{
+    background-color: #2748d8;
+    color: #ffffff;
+}
+
+
+
+/*
+Login
+*/
+
+.usuario_senha {
+    width: 300px;
+    padding: 5px;
+}
+
+.checkbox_login {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.manterLogin:checked {
+    background-color: #7C7C8A;
+    color: #7C7C8A;
+}
+
+.checkbox_login--texto {
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.link_login {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #7C7C8A;
+    font-size: 14px;
+}
+
+.link_login:hover {
+    color: #2748d8;
+}
+
+/*
+Cadastro
+*/
+
+.flex-coluna {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+
+}
+
+.flex-linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nome {
+    width: 310px;
+}
+
+.email {
+    width: 407px;
+}
+
+.logradouro {
+    width: 600px;
+}
+
+.numero {
+    width: 180px;
+}
+
+.bairro {
+    width: 180px;
+}
+
+.cidade {
+    width: 180px;
+}
+
+.uf {
+    width: 180px;
+}
+
+.usuario--senha{
+    width: 250px;
+}
+
+.link_cadastro {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 8px 120px;
+}
+
+.link_cadastro:hover {
+    color: #ffffff;
+}
+
+
+
+/*
+CRUD
+*/
+
+.container--jogadores{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 40px;
+    flex-direction: column;
+}
+
+
+.item--crud {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: #202024;
+    border: 0px;
+    color: #898989;
+    height: 80px;
+    padding: 1px 2px 1px 10px;
+    margin: 0px 0px 10px 0px;
+    width: 600px;
+}
+
+.azul_claro{
+    color: #81D8F7;
+}
+
+.branco{
+    color:#ffffff;
+}
+
+.vermelho{
+    color:#ff0000;
+}
+
+.botao--crud{
+    background-color: #202024;
+    border: 0px;
+    color: #81D8F7;
+}
+
+.botao--crud:hover{
+    color: #2748d8;
+    text-decoration: underline;
+}
+
+.flex-linha--crud{
+    align-items: center;
+    
+}
+
+.center{
+    justify-content: center;
+    align-items: center;   
+}
+
+.numero{
+    width: 60px;   
+}
+
+.logout{
+    text-decoration: none;
+    padding: 10px 50px;
+}
+
+/*
+    ADICIONA
+*/
+
+.invisivel{
+    visibility: hidden;
+}
+
+.botao--cadastrar{
+    width: 250px;
+    margin-right: 10px;
+}
+
+.cursor:hover{
+    cursor:pointer;
+}
+
+.dado-errado{
+    background-color: #ff0000;
+}
+.dado-errado:hover{
+    background-color: #000000;
+}
+
+.botao-error{
+    cursor: not-allowed;
+}
+
+.titulo--jogadores{
+    font-size: 23px;
+}
+
+.titulo--usuario{
+    font-size: 35px;
+}
