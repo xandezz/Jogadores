@@ -2,7 +2,7 @@
 
 >Status do projeto: Desenvolvido✅
 
-O primeiro projeto que fiz do 100% do 0, fiz toda a parte do Front-end com html, css e javaScript e fiz o Back-end com o php, usei o mysql como meu banco de dados e como meu servidor apache e para conectar ao banco de dados usei o Xamp
+O primeiro projeto que fiz do 100% do 0, fiz toda a parte do Front-end com html, css e javaScript e fiz o Back-end com o php, usei o mysql como meu banco de dados e como meu servidoro apache para conectar ao banco de dados usei o Xamp
 
 ```
 Descrição
